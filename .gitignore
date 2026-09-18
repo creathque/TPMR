@@ -1,1 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
 
+# Environments
+.venv/
+venv/
+env/
+
+# IDE
+.idea/
+.vscode/
+
+# Data and experiment outputs
+data/
+datasets/
+output/
+outputs/
+results/
+runs/
+wandb/
+
+# Model weights
+*.pth
+*.pt
+*.ckpt
+*.onnx
+
+# System files
+.DS_Store
+Thumbs.db
