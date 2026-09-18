@@ -1,16 +1,16 @@
 # TPMR
 
-Official repository for **TPMR**, a classifier-guided framework for targeted industrial defect image generation.
+Official repository for **Targeted Phased Mask Repainting (TPMR)**.
 
 ## Status
 
-This repository has been created for the associated manuscript.
+This repository accompanies a manuscript that is currently under review.
 
-The source code, configuration files, pretrained models, and usage instructions will be released upon publication.
+The complete source code, pretrained models, configuration files, and reproduction instructions will be released upon acceptance.
 
 ## Overview
 
-TPMR uses classifier feedback to select hard samples as generation sources. Grad-CAM responses are further used to construct soft masks that guide the generation process.
+TPMR is a classifier-guided framework for targeted industrial defect image generation. It selects difficult samples as generation sources and preserves class-relevant defect content during generation.
 
 ## Planned Release
 
@@ -18,8 +18,8 @@ TPMR uses classifier feedback to select hard samples as generation sources. Grad
 - Model configurations
 - Pretrained models
 - Data preparation instructions
-- Scripts for reproducing the main experiments
-- Additional generated samples
+- Evaluation scripts
+- Instructions for reproducing the main experiments
 
 ## Citation
 
@@ -27,4 +27,8 @@ Citation information will be added after publication.
 
 ## License
 
-License information will be provided with the code release.
+License information will be provided with the official code release.
+
+---
+
+Copyright © 2026 TPMR authors. All rights reserved.
